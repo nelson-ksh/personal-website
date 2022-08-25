@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Contact from './Contact'
+import Interests from './Interests'
 
 export default function HomePage () {
     return (
@@ -22,13 +24,29 @@ export default function HomePage () {
 
             </main>
 
+            <hr/>
+
+            <div className={styles.container}>
+                <center>
+                    <Interests/>
+                </center>
+            </div>
+
+            <hr/>
+
+            <div className={styles.container}>
+                <center>
+                    <Contact/>
+                </center>
+            </div>
+
             <footer className={styles.footer}>
                 <a
                 href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                Powered by{' '}
+                This website is powered by{' '}
                 <span className={styles.logo}>
                     <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
                 </span>
