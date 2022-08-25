@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Contact from './Contact'
 import Interests from './Interests'
+import chilli from "../chilli.jpg"
 
 export default function HomePage () {
     return (
@@ -14,12 +15,13 @@ export default function HomePage () {
             </Head>
 
             <main className={styles.main}>
+                <Image src={chilli} alt="chilli" width={250} height={250} />
                 <h1 className={styles.title}>
-                Hi, I am Nelson Kshetrimayum
+                    Hi, I am Nelson Kshetrimayum
                 </h1>
 
                 <p className={styles.description}>
-                Pursuing<br/> <b>Integrated M.Sc.</b><br/> at<br/> <b>National Institue of Science Education and Research, Bhubaneswar</b>
+                    Pursuing<br/> <b>Integrated M.Sc.</b><br/> at<br/> <b>National Institue of Science Education and Research, Bhubaneswar</b>
                 </p>
 
             </main>
