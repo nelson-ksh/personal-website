@@ -15,7 +15,7 @@ export default function Interests () {
                         Studying cosmology.
                     </li>
                     <li>
-                        Astro report - <font color="blue"><Link href="/large-scale-structures">link</Link></font>
+                        Astro report - <font color="blue"><Link href="/large-scale-structures.html">link</Link></font>
                     </li>
                 </ul>
             </div>
