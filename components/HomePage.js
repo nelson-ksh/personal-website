@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Contact from './Contact'
 import Interests from './Interests'
+import Timeline from './Timeline'
 
 
 export default function HomePage () {
@@ -30,6 +31,14 @@ export default function HomePage () {
             <div className={styles.container}>
                 <center>
                     <Interests/>
+                </center>
+            </div>
+
+            <hr/>
+
+            <div className={styles.container}>
+                <center>
+                    <Timeline/>
                 </center>
             </div>
 

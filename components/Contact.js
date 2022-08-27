@@ -10,13 +10,13 @@ export default function Contact () {
           
             <ul>
                 <li>
-                    E-mail : nelson.kshetrimayum@niser.ac.in
+                    <b>E-mail :</b> nelson.kshetrimayum@niser.ac.in
                 </li>
                 <li>
-                    Personal e-mail : nelsonksh2021@gmail.com
+                    <b>Personal e-mail :</b> nelsonksh2021@gmail.com
                 </li>
                 <li>
-                    Discord : nelsonksh#1675
+                    <b>Discord :</b> nelsonksh#1675
                 </li>
             </ul>
 
