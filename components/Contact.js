@@ -24,7 +24,7 @@ export default function Contact () {
                 <a href="https://github.com/nelson-ksh">
                     <Image src="/icons8-github.svg" alt="Github Logo" width={40} height={40} />
                 </a>
-                <a href="#">
+                <a href="https://gitlab.com/nelson-ksh">
                     <Image src="/icons8-gitlab.svg" alt="Gitlab Logo" width={40} height={40} />
                 </a>
             </span>
